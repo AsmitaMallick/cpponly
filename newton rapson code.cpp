@@ -2,13 +2,6 @@
 
 
 #include<iostream>
-#include<iomanip>
-#include<math.h>
-#include<stdlib.h>
-
-/* Defining equation to be solved.
-   Change this equation to solve another problem. */
-#define    f(x)    3*x - cos(x) -1
 
 /* Defining derivative of g(x).
    As you change f(x), change this function also. */
