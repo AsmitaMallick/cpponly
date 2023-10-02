@@ -2,6 +2,13 @@
 
 
 #include<iostream>
+#include<iomanip>
+#include<math.h>
+#include<stdlib.h>
+
+/* Defining equation to be solved.
+   Change this equation to solve another problem. */
+#define    f(x)    3*x - cos(x) -1
 
 /* Defining derivative of g(x).
    As you change f(x), change this function also. */
@@ -26,9 +33,9 @@ int main()
 	 cin>>N;
 
 	 /* Implementing Newton Raphson Method */
-	 cout<< endl<<"*********************"<< endl;
+	 cout<< endl<<"*******"<< endl;
 	 cout<<"Newton Raphson Method"<< endl;
-	 cout<<"*********************"<< endl;
+	 cout<<"*******"<< endl;
 	 do
 	 {
 		  g0 = g(x0);
@@ -61,5 +68,3 @@ int main()
 	 cout<< endl<<"Root is: "<< x1;
 	 return 0;
 }
-
-
